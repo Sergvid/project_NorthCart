@@ -1,0 +1,12 @@
+# Полное окружение DAG. Устанавливать в отдельном Python 3.12 venv.
+# Версии согласованы с официальными constraints Airflow 2.10.5.
+--constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.10.5/constraints-3.12.txt
+apache-airflow==2.10.5
+apache-airflow-providers-postgres==6.0.0
+pandas==2.1.4
+numpy==1.26.4
+SQLAlchemy==1.4.54
+psycopg2-binary==2.9.10
+boto3==1.36.3
+botocore==1.36.3
+python-dotenv==1.0.1
